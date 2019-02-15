@@ -82,3 +82,16 @@ body{
 }
 }
 
+/*Story 1*/
+.lead::first-letter {
+  	font-size: 2rem;
+  	font-weig
+  	baht: bold;
+}
+
+p::first-letter{
+  	padding-left: 2rem; 
+}
+.Author {
+	font-size: 1.5rem;
+}
