@@ -42,22 +42,31 @@ body{
 	color: var(--main-navbar-color);
 }
 
- #story1, #story2{
-	border:purple solid 3px;
+@media (max-width: 1700px){
+ .story p{
+  font-family: 'Satisfy', cursive;
+	font-size: 1.3rem;
+}
+ .story h2{
+   font-family: 'Satisfy', cursive;
+	font-size: 1.7rem;
+}
 }
 
-@media (max-width: 1100px){
+@media (max-width: 992px){
  .story p{
+   font-family: 'Satisfy', cursive;
 	font-size: 1rem;
 }
- #story1 h2{
+ .story h2{
+   font-family: 'Satisfy', cursive;
 	font-size: 1.7rem;
 }
 }
 @media (max-width: 768px){
   .story{
   	background-size: cover;
-    	color: white;	
+    color: white;	
   	font-family: 'Satisfy', cursive;
 	font-size: 1.3rem;
   }
@@ -68,7 +77,7 @@ body{
  #story2 {
 	background: url("https://images.unsplash.com/photo-1526415302530-ad8c7d818689?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
 }
-#story3 {
+ #story3 {
 	background: url("https://images.unsplash.com/photo-1490173032805-2f6274a01334?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
 }
 }
