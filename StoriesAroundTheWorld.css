@@ -1,0 +1,69 @@
+:root {
+  --body-background-color:rgb(218, 215, 204);
+  --main-navbar-color: rgb(129, 73, 60);
+  --secondary-navbar-color: rgb(119, 100, 60); 
+  --background-navbar-color: red; 
+}
+
+
+body{
+	background: var(--body-background-color);
+	font-family: 'Satisfy', cursive;
+	font-size: 1.3rem;
+}
+#mainNavbar{
+	font-family: 'Dancing Script', cursive;
+	font-weight:100;
+	
+}
+#mainNavbar .navbar-brand{
+	color: var(--main-navbar-color);
+	font-size: 1.5rem;
+}
+
+.navbar-toggler{
+	border-color:  var(--secondary-navbar-color);
+	border-width: 2px;
+}
+
+.fas.fa-layer-group{
+	color:  var(--secondary-navbar-color);
+}
+
+.fab.fa-studiovinari{
+	color:  var(--main-navbar-color);
+}
+#mainNavbar .navbar-link{
+	color: var(--secondary-navbar-color);
+	font-size: 1.2rem;
+}
+
+#mainNavbar .navbar-link:hover{
+	color: var(--main-navbar-color);
+}
+
+ #story1, #story2{
+	border:purple solid 3px;
+}
+
+@media (max-width: 1100px){
+ .story p{
+	font-size: 1rem;
+}
+ #story1 h2{
+	font-size: 1.7rem;
+}
+}
+@media (max-width: 768px){
+ #story1 {
+	background: url("https://images.unsplash.com/photo-1526565331177-f84e9890993c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+	background-size: cover;
+	color: white;
+}
+ #story2 {
+	background: url("https://images.unsplash.com/photo-1526415302530-ad8c7d818689?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+	background-size: cover;
+	color: white;
+}
+}
+
